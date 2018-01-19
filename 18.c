@@ -6,6 +6,8 @@ int t,n,sum=0,r,d;
 printf("enter a num");
 scanf("%d",&n);
 t=n;
+for(i=1;i<=10;i++)
+{  
 while(t!=0)
 {
 r=n%10;
@@ -22,4 +24,4 @@ else
 printf("it is not a armstrong num");
 }
 }
-
+}
