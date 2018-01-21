@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {
-int a[5],i,j,n,temp;
+int a[5],i,j,n,temp,c;
 printf("enter a limit");
 scanf("%d",&n);
 printf("/n enter the nums");
@@ -22,7 +22,12 @@ temp=a[j];
 }
 }
 }
+c=n/2;
 for(i=0;i<=n;i++)
-printf("/n the nums are",a[i]);
+{
+if(a[i]==a[j])
+{
+printf("the middle element is",a[i]);  
+}
 }
 }
