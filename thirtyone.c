@@ -8,7 +8,7 @@ printf("enter a string ");
 scanf("%s",s);
 for(i=0;i<=s[20];i++)
 {
-while(s[i]!=0)
+while(s[i]!='\n')
 {
 t=t++;
 }
