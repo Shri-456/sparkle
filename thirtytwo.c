@@ -2,13 +2,13 @@
 #include<conio.h>
 void main()
 {
-int t=0,i=0;
+int t=0,i;
 char s[20];
 printf("enter a string ");
-scanf("%s",s);
-for(i=0;i<=s[20];i++)
+scanf("%[^\n]s",s);
+for(i=0;s[i]!='\0';i++)
 {
-while(s[i]!='\n')
+while(s[i]!=' ')
 {
 t=t++;
 }
