@@ -1,0 +1,17 @@
+#include "stdio.h"
+void main()
+{
+  char s[100];
+  int i,ct=0;
+  printf("enter a line");
+  scanf("%s",s);
+  for(i=0;s[i]!='\0';i++)
+  {
+  if((s[i]>='a'&&s[i]<='z')||(s[i]>='0'&&s[i]<='9'))
+  {
+   ct+=1;
+  }
+  }
+  printf("%d",ct);
+  
+}
